@@ -117,7 +117,7 @@ const OurServices = () => {
 
       {/* Workflow Section */}
       <div className="relative max-w-6xl mx-auto">
-        <img src="/images/OUR workflow.png" alt="" className="w-full h-auto" />
+        <img src="/images/OUR workflow.png" alt="" className="w-full h-auto bg-Bleck1" />
 
         <div className="absolute inset-0 flex items-center justify-center">
           <h1 className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-bold text-center">
