@@ -1,5 +1,8 @@
 import React from "react";
 import { LuArrowDownRight } from "react-icons/lu";
+import { RiInstagramLine } from "react-icons/ri";
+import { BsFacebook } from "react-icons/bs";
+import { FaYoutube, FaLinkedin } from "react-icons/fa";
 
 const NewArticle = () => {
   return (
@@ -82,6 +85,27 @@ const NewArticle = () => {
                 className="h-full w-full object-cover"
               />
             </div>
+          </div>
+        </div>
+        <div className=" h-100 flex justify-center flex-col items-center gap-7  mt-10">
+          <div className=" w-full bg-Brown1 flex flex-row justify-center rotate-7 items-center font-bold gap-9 text-White1 font-lexend text-3xl ">
+            <FaLinkedin className=" hover:text-LigntGray1" />
+            <FaYoutube className=" hover:text-LigntGray1" />
+            <div className=" flex flex-row items-center gap-2 justify-center text-4xl">
+              <h1 className=" ">CONTACT US</h1>
+              <LuArrowDownRight />
+            </div>
+            <RiInstagramLine className=" hover:text-LigntGray1" />
+            <BsFacebook className=" hover:text-LigntGray1" />
+          </div>
+          <div className=" w-full bg-Brown1 rotate-7 flex flex-row  gap-3 font-lexend justify-center items-center">
+            <h1 className="font-bold text-4xl text-White1">
+              WE LIKE TO START YOUR PROJECT WITH US
+            </h1>
+            <button className="flex items-center gap-1 hover:bg-Gray1 bg-White1 px-2 py-1 rounded-full text-Orange1 text-sm md:text-base">
+              Read More
+              <LuArrowDownRight />
+            </button>
           </div>
         </div>
       </div>
