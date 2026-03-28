@@ -5,17 +5,17 @@ import { FaYoutube, FaLinkedin } from "react-icons/fa";
 
 const FooterSection = () => {
   return (
-    <div className="flex justify-center mt-20 py-4 px-6">
+    <div className="flex justify-center mt-10 py-4 px-6">
       <div className="flex flex-col md:flex-row w-full md:w-[85%] gap-10 md:gap-2 justify-between">
         {/* logo section */}
         <div className="flex flex-col gap-4 items-center md:items-start">
           <img src="/images/logo.png" alt="logo" className="h-20 md:h-25" />
 
           <div className="flex gap-4 text-2xl md:text-3xl text-Brown1">
-            <RiInstagramLine />
-            <BsFacebook />
-            <FaYoutube />
-            <FaLinkedin />
+            <RiInstagramLine className=" hover:text-LigntGray1" />
+            <BsFacebook className=" hover:text-LigntGray1" />
+            <FaYoutube className=" hover:text-LigntGray1" />
+            <FaLinkedin className=" hover:text-LigntGray1" />
           </div>
         </div>
 
@@ -91,8 +91,8 @@ const FooterSection = () => {
               className="text-Brown1 px-4 py-2 focus:outline-none w-[180px] md:w-[220px]"
             />
 
-            <div className="p-3 bg-Brown1 flex items-center">
-              <BsSendFill className="text-White1 text-xl md:text-2xl" />
+            <div className="p-3 bg-Brown1   flex items-center">
+              <BsSendFill className="text-White1 text-xl hover:text-Gray1 md:text-2xl" />
             </div>
           </div>
         </div>

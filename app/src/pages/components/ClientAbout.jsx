@@ -175,11 +175,11 @@ const ClientAbout = () => {
                     <div className="text-White1 flex flex-col justify-between py-9 px-2">
                       <div className="">
                         <h1 className=" font-bold text-3xl">{item.name}</h1>
-                        <h3 className=" text-LigntGray1 text-sm">
+                        <h3 className=" text-LigntGray1 text-sm font-semibold">
                           {item.professional}
                         </h3>
                       </div>
-                      <p className=" text-sm">{item.message}</p>
+                      <p className=" text-sm ">{item.message}</p>
                     </div>
                   </div>
                 </div>
