@@ -4,6 +4,7 @@ import HeroSection from './components/HeroSection';
 import OurServices from './components/OurServices';
 import AboutSection from './components/AboutSection';
 import ClientAbout from './components/ClientAbout';
+import TeamGrid from './components/TeamGrid';
 
 const LandingPage = () => {
   return (
@@ -15,6 +16,7 @@ const LandingPage = () => {
         
         <AboutSection/>
         <ClientAbout/>
+        
       </div>
     
   );
