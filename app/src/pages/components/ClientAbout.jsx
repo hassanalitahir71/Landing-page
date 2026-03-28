@@ -98,8 +98,8 @@ const ClientAbout = () => {
     slidesToShow: 4,
     slidesToScroll: 5,
     autoplay: true,
-    speed: 3000,
-    autoplaySpeed: 3000,
+    speed: 5000,
+    autoplaySpeed: 5000,
     cssEase: "linear",
     pauseOnHover: false,
     responsive: [
@@ -126,7 +126,7 @@ const ClientAbout = () => {
   return (
     <>
       {/* clint say about us */}
-      <div className=" flex flex-col justify-center mt-40 gap-20 items-center">
+      <div className=" flex flex-col justify-center mt-10 gap-20 items-center">
         <div className="w-80% px-4 sm:px-6 md:px-10 py-8">
           <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-start md:items-center justify-between gap-4 md:gap-10">
             {/* Text Section */}
@@ -204,10 +204,7 @@ const ClientAbout = () => {
           </div>
         </div>
         {/* Creative Team */}
-        <div
-          className=" min-h-screen flex items-center justify-center mt-10 
-         p-6"
-        >
+        <div className=" min-h-screen flex items-center justify-center   p-6">
           <div className="grid grid-cols-3 auto-rows-[170px] gap-5 max-w-6xl w-full">
             {/* TEXT */}
             <div className="col-span-2 font-lexend  ">
