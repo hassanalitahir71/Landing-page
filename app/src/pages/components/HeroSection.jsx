@@ -20,7 +20,7 @@ const HeroSection = () => {
             <span className="text-Brown1">solution </span>
           </p>
 
-          <button className="text-White1 bg-Brown1 flex items-center px-4 py-2 cursor-pointer rounded-full gap-2">
+          <button className="text-White1 bg-Brown1 hover:bg-White1 hover:text-Brown1 flex items-center px-4 py-2 cursor-pointer rounded-full gap-2">
             let’s connect
             <RiArrowRightDownLongLine className="text-[22px] md:text-[26px]" />
           </button>
