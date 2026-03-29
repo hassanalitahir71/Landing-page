@@ -68,7 +68,7 @@ const OurServices = () => {
 
               <p className="text-Gray1 text-sm mt-2">{item.content}</p>
 
-              <LuArrowDownRight className="text-Brown1 text-2xl md:text-3xl ml-auto mt-2" />
+              <LuArrowDownRight className="text-Brown1 cursor-pointer hover:text-LigntGray1 text-2xl md:text-3xl ml-auto mt-2" />
             </div>
           ))}
         </div>
@@ -115,17 +115,7 @@ const OurServices = () => {
         </div>
       </div>
 
-      {/* Workflow Section */}
-      <div className="relative max-w-6xl mx-auto">
-        <img src="/images/OUR workflow.png" alt="" className="w-full h-auto bg-Bleck1" />
-
-        <div className="absolute inset-0 flex items-center justify-center">
-          <h1 className="text-xl sm:text-3xl md:text-5xl lg:text-7xl font-bold text-center">
-            <span className="text-White1">OUR </span>
-            <span className="text-Brown1">WORKFLOW</span>
-          </h1>
-        </div>
-      </div>
+     
     </div>
   );
 };

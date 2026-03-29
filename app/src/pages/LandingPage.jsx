@@ -6,6 +6,7 @@ import AboutSection from "./components/AboutSection";
 import ClientAbout from "./components/ClientAbout";
 import NewArticle from "./components/NewArticle";
 import FooterSection from "./components/FooterSection";
+import WorkFlow from "./components/WorkFlow";
 
 const LandingPage = () => {
   return (
@@ -13,7 +14,7 @@ const LandingPage = () => {
       <Header />
       <HeroSection />
       <OurServices />
-
+<WorkFlow/>
       <AboutSection />
       <ClientAbout />
       <NewArticle />

@@ -11,12 +11,24 @@ const Header = () => {
 
       {/* Desktop Nav */}
       <nav className="hidden md:flex text-White1 text-lg gap-8 mr-15 font-lexend font-normal">
-        <a href="#">HOME</a>
-        <a href="#">SERVICES</a>
-        <a href="#">FEATURES</a>
-        <a href="#">PORTFOLIO</a>
-        <a href="#">BLOG</a>
-        <a href="#">CONTACT</a>
+        <a href="#" className="hover:text-LigntGray1">
+          HOME
+        </a>
+        <a href="#" className="hover:text-LigntGray1">
+          SERVICES
+        </a>
+        <a href="#" className="hover:text-LigntGray1">
+          FEATURES
+        </a>
+        <a href="#" className="hover:text-LigntGray1">
+          PORTFOLIO
+        </a>
+        <a href="#" className="hover:text-LigntGray1">
+          BLOG
+        </a>
+        <a href="#" className="hover:text-LigntGray1">
+          CONTACT
+        </a>
       </nav>
 
       {/* Mobile Menu Button */}
@@ -30,12 +42,24 @@ const Header = () => {
       {/* Mobile Nav */}
       {isOpen && (
         <nav className="absolute top-14 left-0 w-full bg-white flex flex-col items-center py-4 space-y-4 md:hidden">
-          <a href="#">HOME</a>
-          <a href="#">SERVICES</a>
-          <a href="#">FEATURES</a>
-          <a href="#">PORTFOLIO</a>
-          <a href="#">BLOG</a>
-          <a href="#">CONTACT</a>
+          <a href="#" className="hover:text-LigntGray1">
+            HOME
+          </a>
+          <a href="#" className="hover:text-LigntGray1">
+            SERVICES
+          </a>
+          <a href="#" className="hover:text-LigntGray1">
+            FEATURES
+          </a>
+          <a href="#" className="hover:text-LigntGray1">
+            PORTFOLIO
+          </a>
+          <a href="#" className="hover:text-LigntGray1">
+            BLOG
+          </a>
+          <a href="#" className="hover:text-LigntGray1">
+            CONTACT
+          </a>
         </nav>
       )}
     </header>
