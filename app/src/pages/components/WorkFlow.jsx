@@ -28,7 +28,7 @@ const WorkFlow = () => {
       </div>
 
       {/* Accordion */}
-      <div className="flex flex-col items-center rotate-15 w-full">
+      <div className="flex flex-col items-center rotate-15 w-[97%]">
         {data.map((item, index) => (
           <div
             key={item.id}
@@ -52,7 +52,7 @@ const WorkFlow = () => {
                   activeIndex === index ? "max-h-[400px] mt-4" : "max-h-0"
                 }`}
               >
-                <div className="flex flex-col md:flex-row justify-between gap-4">
+                <div className="flex flex-col md:flex-row justify-between gap-3">
                   {/* Text */}
                   <div className="flex flex-col max-w-md">
                     <p className="text-xs text-Gray1">
